@@ -54,7 +54,7 @@
             // 
             // btnPrevious
             // 
-            this.btnPrevious.Location = new System.Drawing.Point(45, 560);
+            this.btnPrevious.Location = new System.Drawing.Point(490, 570);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(165, 55);
             this.btnPrevious.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(832, 560);
+            this.btnNext.Location = new System.Drawing.Point(844, 570);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(165, 55);
             this.btnNext.TabIndex = 2;
@@ -127,9 +127,8 @@
             this.topLabel.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.topLabel.Location = new System.Drawing.Point(490, 64);
             this.topLabel.Name = "topLabel";
-            this.topLabel.Size = new System.Drawing.Size(66, 26);
+            this.topLabel.Size = new System.Drawing.Size(0, 26);
             this.topLabel.TabIndex = 4;
-            this.topLabel.Text = "label3";
             // 
             // bottomLabel
             // 
@@ -138,15 +137,14 @@
             this.bottomLabel.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.bottomLabel.Location = new System.Drawing.Point(490, 415);
             this.bottomLabel.Name = "bottomLabel";
-            this.bottomLabel.Size = new System.Drawing.Size(65, 26);
+            this.bottomLabel.Size = new System.Drawing.Size(0, 26);
             this.bottomLabel.TabIndex = 5;
-            this.bottomLabel.Text = "label4";
             // 
             // save
             // 
-            this.save.Location = new System.Drawing.Point(295, 576);
+            this.save.Location = new System.Drawing.Point(113, 570);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(120, 23);
+            this.save.Size = new System.Drawing.Size(133, 55);
             this.save.TabIndex = 6;
             this.save.Text = "Zapisz";
             this.save.UseVisualStyleBackColor = true;

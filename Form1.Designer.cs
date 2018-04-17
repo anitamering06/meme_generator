@@ -78,6 +78,7 @@
             // bottomText
             // 
             this.bottomText.Location = new System.Drawing.Point(27, 247);
+            this.bottomText.MaxLength = 45;
             this.bottomText.Multiline = true;
             this.bottomText.Name = "bottomText";
             this.bottomText.Size = new System.Drawing.Size(216, 125);
@@ -87,6 +88,7 @@
             // topText
             // 
             this.topText.Location = new System.Drawing.Point(27, 73);
+            this.topText.MaxLength = 45;
             this.topText.Multiline = true;
             this.topText.Name = "topText";
             this.topText.Size = new System.Drawing.Size(216, 111);
@@ -113,7 +115,7 @@
             // 
             // preview
             // 
-            this.preview.Location = new System.Drawing.Point(344, 23);
+            this.preview.Location = new System.Drawing.Point(333, 23);
             this.preview.Name = "preview";
             this.preview.Size = new System.Drawing.Size(384, 422);
             this.preview.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -124,21 +126,21 @@
             // 
             this.topLabel.AutoSize = true;
             this.topLabel.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.topLabel.Location = new System.Drawing.Point(344, 69);
+            this.topLabel.Location = new System.Drawing.Point(352, 57);
             this.topLabel.Name = "topLabel";
-            this.topLabel.Size = new System.Drawing.Size(66, 26);
+            this.topLabel.Size = new System.Drawing.Size(0, 26);
             this.topLabel.TabIndex = 4;
-            this.topLabel.Text = "label3";
+            this.topLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // bottomLabel
             // 
             this.bottomLabel.AutoSize = true;
             this.bottomLabel.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.bottomLabel.Location = new System.Drawing.Point(344, 351);
+            this.bottomLabel.Location = new System.Drawing.Point(352, 347);
             this.bottomLabel.Name = "bottomLabel";
-            this.bottomLabel.Size = new System.Drawing.Size(65, 26);
+            this.bottomLabel.Size = new System.Drawing.Size(0, 26);
             this.bottomLabel.TabIndex = 5;
-            this.bottomLabel.Text = "label4";
+            this.bottomLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form1
             // 

@@ -50,22 +50,25 @@
             // btnView
             // 
             this.btnView.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnView.Location = new System.Drawing.Point(487, 358);
+            this.btnView.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnView.Location = new System.Drawing.Point(503, 341);
             this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(139, 46);
+            this.btnView.Size = new System.Drawing.Size(197, 63);
             this.btnView.TabIndex = 1;
             this.btnView.Text = "Generuj mema na gotowym obrazku";
-            this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.UseVisualStyleBackColor = false;
             this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(150, 358);
+            this.btnGenerate.AutoSize = true;
+            this.btnGenerate.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnGenerate.Location = new System.Drawing.Point(70, 341);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(139, 46);
+            this.btnGenerate.Size = new System.Drawing.Size(186, 63);
             this.btnGenerate.TabIndex = 2;
             this.btnGenerate.Text = "Generuj mema na własnym obrazku";
-            this.btnGenerate.UseVisualStyleBackColor = true;
+            this.btnGenerate.UseVisualStyleBackColor = false;
             this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // MainWindow
@@ -80,6 +83,7 @@
             this.Text = "MainWindow";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
